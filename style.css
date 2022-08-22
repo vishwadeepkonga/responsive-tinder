@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+:root {
+    --major-color: #ff4b67;
+    --major-color-hover: #ff647b;
+}
+
+
+.Section1{
+    width: 100%;
+    background-color: hotpink ;
+}
+.Section-1 .logo-text{
+    font-size: 30px;
+}
+.Section1 .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    
+}
+.Section1 .banner-left{
+    width: 50%;
+    }
+.Section1 .banner-left h1{
+font-size: 50px;
+}
+.Section1 .banner-right img{
+    width: 20vw;
+    margin-top: 100px;
+}
+.Section1 .banner-left .downloadbuttons button
+{
+    margin-right: 20px;
+}
+@media screen and (max-width: 992px) {
+
+.Section1 .banner-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.Section1 .banner-right img{
+    width: 230px;
+    transform: rotate(10deg);
+}
+.Section1 .banner-left .downloadbuttons button svg
+{
+    width: 14px;
+}
+/*--------------------*/
+.section-2{
+    width: 100%;
+    padding: 80px 0;
+    padding: 50px 0;
+}    
+.section-2-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.section-2 .section-2-item svg{
+
+    color: var(--major-color);
+    width: 64px;
+}
+/*-------------------*/
+ .section-3{
+    background-color: var(--major-color);
+ }
+ .section-3 .UserTestimonial img{
+    width: 80px;
+    border-radius: 50%;
+}
+/*------------------------------------------section-5-----------------------*/
+.section-5  
+{
+    height: 40vh;
+    width: 100%;
+    background-color: var(--major-color);
+}
+
+.section-5 .container .downloadbuttons button
+{
+    margin-right: 20px;
+}
+.section-5 .container .downloadbuttons button svg
+{
+    width: 20px;
+}
+/*-------------------------------------------------------------------------------------*/
+.section-6{
+    height: 20vh;
+}
+.section-6  img{
+    width: 25px;
+
+}
+.section-6  .icons{
+    margin-top: 4px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+
+}
