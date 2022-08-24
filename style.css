@@ -7,7 +7,7 @@
 
 .Section1{
     width: 100%;
-    background-color: hotpink ;
+    background-color: #ff647b ;
 }
 .Section-1 .logo-text{
     font-size: 30px;
@@ -80,11 +80,14 @@ font-size: 50px;
     width: 80px;
     border-radius: 50%;
 }
+/*--------------------------SECTION-4-------------------------------*/
+
+
 /*------------------------------------------section-5-----------------------*/
 .section-5  
 {
     height: 40vh;
-    width: 100%;
+    width: 100vw;
     background-color: var(--major-color);
 }
 
