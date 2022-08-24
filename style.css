@@ -82,20 +82,33 @@ font-size: 50px;
 }
 /*--------------------------SECTION-4-------------------------------*/
 
-
 /*------------------------------------------section-5-----------------------*/
 .section-5  
 {
-    height: 40vh;
+    height: 50vh;
     width: 100vw;
     background-color: var(--major-color);
 }
+.section-5 h1{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.section-5 .container .section-5-buttons 
+{
+    align-items: center;
+    margin-bottom: 20px;
 
-.section-5 .container .downloadbuttons button
+}
+
+.section-5 .container .section-5-buttons btn
 {
     margin-right: 20px;
+    align-content: center;
+    margin-top: 200px;
+gap: 20px;
 }
-.section-5 .container .downloadbuttons button svg
+.section-5 .container .section-5-buttons button svg
 {
     width: 20px;
 }
